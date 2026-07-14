@@ -1,0 +1,54 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System Files
+# ==========================
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Power BI Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.autosave
+
+# Uncomment if your Power BI file is too large to upload
+# *.pbix
+
+# ==========================
+# Python Environment Files
+# ==========================
+.python-version
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.swp
+*.swo
