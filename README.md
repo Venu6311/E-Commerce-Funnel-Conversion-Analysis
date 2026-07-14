@@ -91,13 +91,27 @@ This project investigates customer behavior across the shopping funnel, uncovers
 
 ---
 
+> **Note**
+>
+> The original and processed datasets are not included in this repository because the files exceed GitHub's upload size limits (approximately 400 MB).
+>
+> The original dataset can be downloaded from Kaggle, and the processed dataset can be recreated using the provided data cleaning notebook.
+
 # 📁 Data
 
 The project contains two versions of the dataset.
 
 ### Raw Data
 
-Original October 2019 e-commerce event dataset downloaded from Kaggle.
+# Raw Dataset
+
+The original dataset is not included in this repository because it exceeds GitHub's file size limit.
+
+**Dataset:** October 2019 E-Commerce Events
+
+**Source:** Kaggle
+
+Please download the dataset from Kaggle and place it in this folder before running the project.
 
 ### Processed Data
 
@@ -110,6 +124,14 @@ Additional columns created during preprocessing:
 - Day
 - Weekday
 - Hour
+
+# Processed Dataset
+
+The cleaned dataset used for SQL analysis and Power BI dashboard development is not included due to GitHub file size limitations.
+
+You can generate the processed dataset by running the data cleaning notebook located in:
+
+notebooks/01_Data_Cleaning_Feature_Engineering.ipynb
 
 ---
 
